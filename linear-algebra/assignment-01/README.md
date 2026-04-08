@@ -1,20 +1,22 @@
-  Overview
+# Overview
 This repository contains two implementations (Java and JavaScript) of a program that computes the determinant of a hardcoded 3×3 matrix using cofactor expansion along the first row.
 
-Student Information
+## Student Information
 Name: Kristine O. Bermudo
 Course: BSIT-GD
 Subject: Programming 2
 Assignment: Programming Assignment 1 — 3×3 Matrix Determinant Solver
 Date: April 8, 2026
 
-Repository Structure
+## Repository Structure
+```
 .
 ├── DeterminantSolver.java        # Java implementation
 ├── determinant_solver.js         # JavaScript implementation (Node.js)
 └── README.md                     # Documentation file
+```
 
-Features
+## Features
 - Prints the assigned 3×3 matrix in a formatted style.
 - Computes each 2×2 minor step-by-step.
 - Shows the arithmetic for each minor.
@@ -22,7 +24,8 @@ Features
 - Displays the final determinant value.
 - Warns if the matrix is singular (determinant = 0).
 
-  Example Output
+### Example Output
+```
 ====================================================
   3x3 MATRIX DETERMINANT SOLVER
   Student: Kristine O. Bermudo
@@ -49,10 +52,13 @@ Expanding along Row 1 (cofactor expansion):
 ====================================================
   ✓  DETERMINANT = 67
 ====================================================
+```
 
-Notes
+### Notes
 Determinant is computed using cofactor expansion along the first row.
 The program is hardcoded for the assigned matrix:
+```
 [1 4 2]
 [3 2 5]
 [6 1 3]
+```
