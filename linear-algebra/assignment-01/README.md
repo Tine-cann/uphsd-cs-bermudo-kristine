@@ -1,4 +1,4 @@
-Overview
+  Overview
 This repository contains two implementations (Java and JavaScript) of a program that computes the determinant of a hardcoded 3×3 matrix using cofactor expansion along the first row.
 
 Student Information
@@ -22,7 +22,7 @@ Features
 - Displays the final determinant value.
 - Warns if the matrix is singular (determinant = 0).
 
-Example Output
+  Example Output
 ====================================================
   3x3 MATRIX DETERMINANT SOLVER
   Student: Kristine O. Bermudo
